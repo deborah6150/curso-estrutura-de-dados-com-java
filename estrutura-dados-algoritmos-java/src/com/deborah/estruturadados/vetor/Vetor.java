@@ -45,6 +45,16 @@ public boolean adiciona(String elemento) {
 		}
 		
 	}
+
+	public String busca(int posicao) {
+		
+		if(!(posicao >= 0 && posicao < tamanho)) {
+			throw new IllegalArgumentException("Posicao invalida");
+		}
+		
+		return this.elementos[posicao];
+	}
+	
 	
 	public int tamanho() {
 		return this.tamanho;
