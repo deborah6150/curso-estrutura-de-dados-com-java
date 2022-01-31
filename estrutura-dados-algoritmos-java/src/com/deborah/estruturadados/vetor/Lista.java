@@ -59,6 +59,10 @@ public class Lista<T> {
 			this.elementos = elementosNovos;
 		}
 	}
+	
+	public T obtem(int posicao) {
+		return this.busca(posicao);
+	}
 
 	public T busca(int posicao) {
 		
