@@ -18,6 +18,13 @@ public class Fila<T>  extends EstruturaEstatica<T>{
 		
 	}
 	
+	public void enfilerar(T elemento) {
+//		this.elementos[this.tamanho] = elemento;
+//		this.tamanho++;
+		
+		this.adiciona(elemento);
+	}
+	
 	
 
 }
